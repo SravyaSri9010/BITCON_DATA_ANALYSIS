@@ -1,0 +1,39 @@
+
+---
+
+## 📄 .gitignore
+
+```gitignore
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Data files (avoid committing large datasets)
+data/
+*.csv
+*.xlsx
+*.json
+
+# Outputs / logs
+outputs/
+*.log
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
